@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  
+}
+.back{
+  background: #E5E5E5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.in{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ position: relative;
+  width: 305px;
+  height: 1315px;
+  left: 0px;
+  top: 0px;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+background: #FFFFFF;
 }
-
-.App-link {
-  color: #61dafb;
+.font{
+  font-family: 'Inter', sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.c{
+  color: #767676;
+  font-weight: 400;
+}
+.icon{
+  background: #2B2B2B;
+}
+.icon1{
+  background: #FFB400;
+ width:fit-content
+}
+.sp{
+  color: #2B2B2B;
+}
+.g{
+  color: #7EB942;
+}
+.head_color{
+  color: #2B2B2B;
+  font-weight: 500;
+}
+.info_color{
+  color: #767676;
+  font-weight: 400;
+}
+.h{
+  position: absolute;
+width: 970px;
+height: 467px;
+left: 335px;
+top: 0px;
+  background: #FFFFFF;
+}
+.para1{
+  color: #2B2B2B;
+  font-weight: 700;
+  font-style: normal;
+}
+.front{
+  color: #FFB400;
+}
+.imgdeveloper{
+background-image: url("../src/Assestes/images/Your\ Image\ 1.jpg");
+width: 325.72px;
+height: 459.09px;
+position: absolute;
+left: 921.68px;
+top: 8px;
+}
+.r_side{
+  position: absolute;
+  width: 60px;
+  height: 1315px;
+  left: 1332px;
+  top: 0px;
+  
+  /* White font */
+  
+  background: #FAFAFA;
+  box-shadow: 4px 0px 10px rgba(47, 122, 249, 0.1);
 }

@@ -1,9 +1,11 @@
 import React from 'react'
-import Hero from "../src/components/Hero";
+import SidebarInfo from "./components/SidebarInfo";
+
 const App = () => {
   return (
     <>
-<Hero/>
+<SidebarInfo/>
+
     </>
   )
 }
