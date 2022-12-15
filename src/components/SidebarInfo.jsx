@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from "../components/Hero";
+
 import img1 from "../Assestes/images/Profile.jpg";
 import icon1 from "../Assestes/images/Vector (5).png";
 import icon2 from "../Assestes/images/Vector (6).png";
@@ -111,13 +111,16 @@ const SidebarInfo = () => {
 
 
 
-</div>
-<Hero/>
-
 
 </div>
 
-  
+
+
+
+</div>
+
+
+
 
    
    </>
